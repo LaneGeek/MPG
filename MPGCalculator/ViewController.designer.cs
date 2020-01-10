@@ -11,8 +11,50 @@ using UIKit;
 
 namespace MPGCalculator
 {
-    [Register("ViewController")]
+    [Register ("ViewController")]
     partial class ViewController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton calculateButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField gallonsTextField { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField milesTextField { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel mpgLabel { get; set; }
+
+        [Action ("UIButton204_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void UIButton204_TouchUpInside (UIKit.UIButton sender);
+
+        void ReleaseDesignerOutlets ()
+        {
+            if (calculateButton != null) {
+                calculateButton.Dispose ();
+                calculateButton = null;
+            }
+
+            if (gallonsTextField != null) {
+                gallonsTextField.Dispose ();
+                gallonsTextField = null;
+            }
+
+            if (milesTextField != null) {
+                milesTextField.Dispose ();
+                milesTextField = null;
+            }
+
+            if (mpgLabel != null) {
+                mpgLabel.Dispose ();
+                mpgLabel = null;
+            }
+        }
     }
 }
