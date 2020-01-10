@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPGCalculator", "MPGCalculator\MPGCalculator.csproj", "{0FFC3A98-510F-4CF5-9701-2A293D4D3D1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FFC3A98-510F-4CF5-9701-2A293D4D3D1A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{0FFC3A98-510F-4CF5-9701-2A293D4D3D1A}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{0FFC3A98-510F-4CF5-9701-2A293D4D3D1A}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{0FFC3A98-510F-4CF5-9701-2A293D4D3D1A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{0FFC3A98-510F-4CF5-9701-2A293D4D3D1A}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{0FFC3A98-510F-4CF5-9701-2A293D4D3D1A}.Debug|iPhone.Build.0 = Debug|iPhone
+		{0FFC3A98-510F-4CF5-9701-2A293D4D3D1A}.Release|iPhone.ActiveCfg = Release|iPhone
+		{0FFC3A98-510F-4CF5-9701-2A293D4D3D1A}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal
