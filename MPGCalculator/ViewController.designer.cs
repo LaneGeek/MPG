@@ -30,9 +30,9 @@ namespace MPGCalculator
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel mpgLabel { get; set; }
 
-        [Action ("UIButton204_TouchUpInside:")]
+        [Action ("CalculateButton_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton204_TouchUpInside (UIKit.UIButton sender);
+        partial void CalculateButton_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
