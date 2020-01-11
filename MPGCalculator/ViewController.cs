@@ -30,8 +30,10 @@ namespace MPGCalculator
                 // Get the two user inputs
                 double miles = Double.Parse(milesTextField.Text);
                 double gallons = Double.Parse(gallonsTextField.Text);
-                // Calculate the mpg and display it
-                mpgLabel.Text = Calculator.Mpg(miles, gallons).ToString() + " mpg";
+
+                if (gallons != 0) // Gallons cannot be zero
+                    // Calculate the mpg and display it
+                    mpgLabel.Text = Calculator.Mpg(miles, gallons).ToString() + " mpg";
             }
             catch
             {
